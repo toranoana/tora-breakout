@@ -1,0 +1,29 @@
+{
+  "name": "tora-breakout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "y-fujiwara",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "@wasm-tool/wasm-pack-plugin": "^1.0.0",
+    "eslint": "^6.2.1",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "tora-breakout-wasm": "file:./tora-breakout-wasm/pkg",
+    "prettier": "^1.18.2",
+    "text-encoding": "^0.7.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}

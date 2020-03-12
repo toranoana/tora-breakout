@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "esNext",
+    "strict": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "noEmit": true,
+    "esModuleInterop": true,
+    "typeRoots" : ["src/typings", "tora-breakout-wasm/pkg"],
+    "lib": ["dom", "es2015"]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

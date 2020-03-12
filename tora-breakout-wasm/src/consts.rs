@@ -1,0 +1,16 @@
+pub const BALL_RADIUS: f64 = 5.0;
+pub const PADDLE_HEIGHT: f64 = 5.0;
+pub const PADDLE_WIDTH: f64 = 75.0;
+pub const BRICK_ROW_COUNT: usize = 24;
+pub const BRICK_COLUMN_COUNT: usize = 10;
+pub const BRICK_SUM: u32 = (BRICK_ROW_COUNT * BRICK_COLUMN_COUNT) as u32;
+pub const BRICK_WIDTH: f64 = 48.0;
+pub const BRICK_HEIGHT: f64 = 20.0;
+pub const BRICK_PADDING: f64 = 0.0;
+pub const BRICK_OFFSET_TOP: f64 = 30.0;
+pub const BRICK_OFFSET_LEFT: f64 = 0.0;
+// この数分衝突判定を繰り返す=SPEED * SPEED_REPEATが実質の速さになる
+pub const SPEED: f64 = 0.05;
+pub const INIT_SPEED: usize = 20;
+pub const DEFAULT_SCORE: u32 = 0;
+pub const DEFAULT_LIVES: u32 = 3;
